@@ -1,0 +1,75 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Dec 10 10:49:04 2023
+# Process ID: 23220
+# Current directory: C:/Users/User/Desktop/LabSys/pong_game_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17688 C:\Users\User\Desktop\LabSys\pong_game_2\pong_game_2.xpr
+# Log file: C:/Users/User/Desktop/LabSys/pong_game_2/vivado.log
+# Journal file: C:/Users/User/Desktop/LabSys/pong_game_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/m100_counter.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/pong_graph.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/pong_text.v'.
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/pong_top.v'.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 742.367 ; gain = 75.910
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_files -from_files C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/100_counter.v -to_files C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/m100_counter.v -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/m100_counter.v' with file 'C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/100_counter.v'.
+update_files -from_files C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/component.v -to_files C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/pong_graph.v -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/pong_graph.v' with file 'C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/component.v'.
+update_files -from_files C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/score_counter.v -to_files C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/100_counter.v -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/100_counter.v' with file 'C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/score_counter.v'.
+update_files -from_files C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/text.v -to_files C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/pong_text.v -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/pong_text.v' with file 'C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/text.v'.
+update_files -from_files C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/system.v -to_files C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/pong_top.v -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/pong_top.v' with file 'C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/system.v'.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_files -from_files C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/vga.v -to_files C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/vga_controller.v -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/vga_controller.v' with file 'C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/vga.v'.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Sun Dec 10 10:57:59 2023] Launched synth_1...
+Run output will be captured here: C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.runs/synth_1/runme.log
+[Sun Dec 10 10:57:59 2023] Launched impl_1...
+Run output will be captured here: C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.3
+  **** Build date : Dec  7 2018-00:40:27
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183B82481A
+set_property PROGRAM.FILE {C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.

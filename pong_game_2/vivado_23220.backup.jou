@@ -1,0 +1,43 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Sun Dec 10 10:49:04 2023
+# Process ID: 23220
+# Current directory: C:/Users/User/Desktop/LabSys/pong_game_2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent17688 C:\Users\User\Desktop\LabSys\pong_game_2\pong_game_2.xpr
+# Log file: C:/Users/User/Desktop/LabSys/pong_game_2/vivado.log
+# Journal file: C:/Users/User/Desktop/LabSys/pong_game_2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.xpr
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_files -from_files C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/100_counter.v -to_files C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/m100_counter.v -filesets [get_filesets *]
+update_files -from_files C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/component.v -to_files C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/pong_graph.v -filesets [get_filesets *]
+update_files -from_files C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/score_counter.v -to_files C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/100_counter.v -filesets [get_filesets *]
+update_files -from_files C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/text.v -to_files C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/pong_text.v -filesets [get_filesets *]
+update_files -from_files C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/system.v -to_files C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/pong_top.v -filesets [get_filesets *]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_files -from_files C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/vga.v -to_files C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.srcs/sources_1/new/vga_controller.v -filesets [get_filesets *]
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/User/Desktop/LabSys/pong_game_2/pong_game_2.runs/impl_1/system.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
